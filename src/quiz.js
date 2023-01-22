@@ -7,7 +7,7 @@ const quiz = [
       "20 Minuten nach Aushang des Ergebnisses",
       "60 Minuten nach Aushang des Ergebnisses",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage:
@@ -17,7 +17,7 @@ const quiz = [
       "Gläser zum Astigmatismusausgleich",
       "Filter mit geringer Vergrößerung",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage: "Was ist ein Trockenschuss?",
@@ -26,7 +26,7 @@ const quiz = [
       "das Auftreffen des Schlagbolzens auf eine Patrone, ohne das diese zündet",
       "das Auslösen des Abzuges einer Waffe, die mit einer Vorrichtung versehen ist, den Abzug auszulösen ohne dass die Treibladung ausgelöst wird",
     ],
-    antwort: [],
+    antwort: [0, 2],
   },
   {
     frage: "Welche Aufgaben hat ein Schießleiter?",
@@ -35,7 +35,7 @@ const quiz = [
       "bei Wettkämpfen innerhalb des Vereins über Einsprüche endgültig entscheiden",
       "die Waffenkontrolle durchführen",
     ],
-    antwort: [],
+    antwort: [0, 1],
   },
   {
     frage: "Warum muss ein Schütze einen Gehörschutz tragen?",
@@ -44,7 +44,7 @@ const quiz = [
       "um von den Anweisungen der Standaufsicht nicht gestört zu werden",
       "um möglichen Gehörschäden vorzubeugen",
     ],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage:
@@ -54,7 +54,7 @@ const quiz = [
       "die Schießleitung/Jury (mit Mehrheitsbeschluss)",
       "die Standaufsicht",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage: "Welche Aussagen bezüglich des Genusses von Alkohol sind richtig?",
@@ -64,7 +64,7 @@ const quiz = [
       "Dem Veranstalter bleibt es vorbehalten Kontrollen vorzunehmen.",
       "bei Feststellung von Alkohol erfolgt eine Disqualifikation in dem betr. Wettbewerb.",
     ],
-    antwort: [],
+    antwort: [0, 1, 2, 3],
   },
   {
     frage:
@@ -74,7 +74,7 @@ const quiz = [
       "für zwei Vereine",
       "für jeden Verein, in dem der Schütze Mitglied ist.",
     ],
-    antwort: [],
+    antwort: [0],
   },
   {
     frage: "Wozu dient der Mitgliedsausweis (Wettkampfpass)?",
@@ -83,7 +83,7 @@ const quiz = [
       "zur Bescheinigung für den Transport von Waffen in das Ausland",
       "zur Kontrolle der Startberechtigungen",
     ],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage:
@@ -93,7 +93,7 @@ const quiz = [
       "Höhe des Startgeldes",
       "Zeitpunkt des Meldeschlusses",
     ],
-    antwort: [],
+    antwort: [0, 1, 2],
   },
   {
     frage:
@@ -103,7 +103,7 @@ const quiz = [
       "Zeitpunkt des Meldeschlusses",
       "Vorbehalts- und Änderungsklausel",
     ],
-    antwort: [],
+    antwort: [0, 1, 2],
   },
   {
     frage:
@@ -113,7 +113,7 @@ const quiz = [
       "ja, wenn er sich bei der Aufsicht abmeldet",
       "ja, wenn er sich bei dem Betreuer abmeldet",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage: "Von welcher Seite sind die Scheibenstreifen zu beschießen?",
@@ -122,7 +122,7 @@ const quiz = [
       "regelt der Veranstalter",
       "Scheibenstreifen werden vom Signum aus beschossen",
     ],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage:
@@ -132,24 +132,24 @@ const quiz = [
       "Probeschüsse sind nur nach Absprachen mit der Standaufsicht erlaubt",
       "nach dem ersten Wertungsschuss sind keine Probeschüsse mehr zulässig",
     ],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage:
       "Welche maximale Höhe dürfen Seitenblenden habe, die z.B. an einer Schießbrille angebracht sind?",
     antworten: ["30 mm", "40 mm", "50 mm"],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage:
       "Welche Breite darf eine Blenden habe, die das nicht zielende Auge abdeckt?",
     antworten: ["30 mm", "40 mm", "50 mm"],
-    antwort: [],
+    antwort: [0],
   },
   {
     frage: "Dürfen Schützen der Jugendklasse in der Juniorenklasse B starten?",
     antworten: ["nein", "ja", "nur mit Sondergenehmigung"],
-    antwort: [],
+    antwort: [0],
   },
   {
     frage: "Dürfen Schützen der Herren III in der Herren I starten?",
@@ -158,7 +158,7 @@ const quiz = [
       "ja, wenn sie zu Beginn des Jahres eine entsprechende Erklärung abgegeben haben",
       "ja, ein Wechsel ist jeder Zeit möglich",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage: 'Welcher Defekt wird als "zulässiger Defekt" bewertet?',
@@ -167,12 +167,12 @@ const quiz = [
       "ein Geschoss bleibt im Lauf stecken",
       "trotz Betätigung des Abzugs löst die Waffe keinen Schuss aus",
     ],
-    antwort: [],
+    antwort: [0, 1, 2],
   },
   {
     frage: "Welche der Wettbewerbe ist ein olympischer Wettbewerb?",
     antworten: ["Skeet", "25 m Pistole (Frauen)", "KK Liegendkampf (Männer)"],
-    antwort: [],
+    antwort: [0, 1],
   },
   {
     frage: "Welche der Wettbewerbe ist ein olympischer Wettbewerb?",
@@ -181,7 +181,7 @@ const quiz = [
       "25 m Schnellfeuerpistole (Männer)",
       "Perkussionsgewehr (Männer)",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage:
@@ -191,12 +191,12 @@ const quiz = [
       "nur wenn er zu spät zum Wettkampf erschienen ist",
       "nein",
     ],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage: "Muss ein Sportschütze Dopingkontrollen zulassen?",
     antworten: ["ja", "nur wenn ein Gerichtsbeschluss vorliegt", "nein"],
-    antwort: [],
+    antwort: [0],
   },
   {
     frage: "Wofür gilt die Bezeichnung SH1/AB1?",
@@ -205,7 +205,7 @@ const quiz = [
       "für die verschlüsselte Datenübertragung für Ergebnisse im Sportschießen",
       "für eine Klasseneinteilung und deren Spezifikation im Schießsport für Menschen mit körperlicher Behinderung",
     ],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage:
@@ -215,7 +215,7 @@ const quiz = [
       "ja, er darf einen Helfer/Betreuer haben",
       "ja, aber nur wenn die Schießleitung dies erlaubt",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage:
@@ -225,7 +225,7 @@ const quiz = [
       "nein, für sitzende Sportler sind Schießhosen verboten",
       "ja, aber nur wenn die Schießleitung dies erlaubt",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage:
@@ -235,7 +235,7 @@ const quiz = [
       "55 Minuten",
       "60 Minuten bei Zuganlagen",
     ],
-    antwort: [],
+    antwort: [0, 2],
   },
   {
     frage:
@@ -245,7 +245,7 @@ const quiz = [
       "Maximalhöhe des Hochstuhles 66 cm",
       "Maximalhöhe des Hochstuhles 67 cm",
     ],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage: "Welche Bestimmungen gelten für die Kniend-Rolle?",
@@ -254,12 +254,12 @@ const quiz = [
       "eine Verformung der Rolle durch Zusammenbinden oder auf andere Art ist erlaubt",
       "sie darf nicht größer als 250 mm in der Länge und 180 mm im Durchmesser sein.",
     ],
-    antwort: [],
+    antwort: [0, 2],
   },
   {
     frage: "Wie lang darf der Korntunnel bei einem Luftgewehr (1.10) sein?",
     antworten: ["60 mm", "50 mm", "55 mm"],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage: "In welcher Reihenfolge wird der 3-Stellungskampf geschossen?",
@@ -268,23 +268,23 @@ const quiz = [
       "kniend, liegend, stehend",
       "stehend, kniend, liegend",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage:
       "Der Unterarm des Schützen, der beim Liegendschießen den Riemen hält, bildet zur Horizontalen eine Winkel von mindestens?",
     antworten: ["20 Grad", "30 Grad", "40 Grad"],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage: "Wie lautet das Verhältnis Höhe zu Länge (+10mm) bei Schießschuhen?",
     antworten: ["2 : 3", "2 : 4", "3 : 4"],
-    antwort: [],
+    antwort: [0],
   },
   {
     frage: "Sind an Schießhandschuhen Verschlussvorrichtungen erlaubt?",
     antworten: ["ja", "nur Klettverschlüsse", "nein"],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage: "Welche Maße darf ein Diopterblende nicht überschreiten?",
@@ -293,18 +293,18 @@ const quiz = [
       "Höhe (30 mm), Länge (100 mm)",
       "Höhe (40 mm), Länge (120 mm)",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage: "Die maximale Schießriemenbreite beträgt?",
     antworten: ["40 mm", "45 mm", "50 mm"],
-    antwort: [],
+    antwort: [0],
   },
   {
     frage:
       "Die Schaftkappe eines Luftgewehres darf von der Nullstellung parallel um maximal wieviel mm nach links oder rechts verschoben werden?",
     antworten: ["10 mm", "15 mm", "30 mm"],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage:
@@ -314,7 +314,7 @@ const quiz = [
       "2,0 mm oder 4 mm doppelt gemessen",
       "2,5 mm oder 5 mm doppelt gemessen",
     ],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage: "Welche Aussagen bezüglich der Visierungen (Gewehr) sind korrekt?",
@@ -323,7 +323,7 @@ const quiz = [
       "ab der Klasse Herren II/ Damen II dürfen Linsen mit Vergrößerung verwendet werden.",
       "Lichtfilter (Farbfilter) dürfen am Korn und/oder Diopter montiert sein.",
     ],
-    antwort: [],
+    antwort: [0, 1, 2],
   },
   {
     frage: "Welche Festlegungen für alle Gewehre sind korrekt?",
@@ -332,7 +332,7 @@ const quiz = [
       "Voll- und Halbautomaten sind zugelassen",
       "Laufverlängerungen und Läufe dürfen keine seitlichen Öffnungen aufweisen.",
     ],
-    antwort: [],
+    antwort: [0, 2],
   },
   {
     frage: "Welche Abmessungen gelten für das Luftgewehr?",
@@ -341,7 +341,7 @@ const quiz = [
       "Durchmesser des Korntunnels 30 mm",
       "Gesamtstärke (Breite) des Vorderschaftes \u00e2\u20ac\u201c 65 mm",
     ],
-    antwort: [],
+    antwort: [0],
   },
   {
     frage:
@@ -351,69 +351,69 @@ const quiz = [
       "die Schaftbacke darf nach oben und unten verstellt werden",
       "ein Austausch des gesamten Korntunnels und/oder Diopter ist erlaubt.",
     ],
-    antwort: [],
+    antwort: [0, 1, 2],
   },
   {
     frage: "Welche Länge darf der Korntunnel eines Zimmerstutzen haben?",
     antworten: ["40 mm", "45 mm", "50 mm"],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage: "Welches max. Gewicht darf ein Luftgewehr (Regelnr. 1.10) haben?",
     antworten: ["4.500 g", "5.000 g", "5.500 g"],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage:
       "Darf beim KK-Sportgewehr eine Handstütze im Stehendanschlag verwendet werden?",
     antworten: ["ja", "ja, mit Erlaubnis des Schießleiters", "nein"],
-    antwort: [],
+    antwort: [0],
   },
   {
     frage:
       "Welches max. Gewicht darf ein KK Sportgewehr (Regelnr. 1.40) haben?",
     antworten: ["5.500 g", "6.500 g", "8.000 g"],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage:
       "Welche max. Vergrößerung darf ein Zielfernrohr im Wettbewerb KK-50m Zielfernrohr haben?",
     antworten: ["12 fach", "15 fach", "20 fach"],
-    antwort: [],
+    antwort: [0],
   },
   {
     frage: "Darf beim KK 100m eine Wasserwaage verwendet werden?",
     antworten: ["ja", "ja, mit Erlaubnis des Schießleiters", "nein"],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage:
       "Welches max. Gewicht darf ein Sportgerät im Wettbewerb KK-Liegendkampf Herren (Regelnr. 1.80) haben?",
     antworten: ["6.000 g", "7.000 g", "8.000 g"],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage:
       "Wie lang ist die erlaubte Schießzeit im Wettbewerb Luftgewehr (1.10 - 40 Schuss) bei Zuganlagen ohne Vorbereitungszeit?",
     antworten: ["50 Min.", "60 Min.", "75 Min."],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage:
       "Wie lang ist die erlaubte Schießzeit im Wettbewerb KK-Liegendkampf (1.80) bei anderen Systemen (keine Zuganlagen) ohne Vorbereitungszeit?",
     antworten: ["50 Min.", "60 Min.", "75 Min."],
-    antwort: [],
+    antwort: [0],
   },
   {
     frage:
       "Auf welche Entfernung wird der Wettbewerb Zimmerstutzen geschossen?",
     antworten: ["10 m", "15 m", "25 m"],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage: "Wie schwer darf eine Luftpistole maximal sein?",
     antworten: ["1000g", "\u00c2\u00a0 500g", "1500g"],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage:
@@ -423,7 +423,7 @@ const quiz = [
       "maximal 10 innerhalb der Vorbereitungszeit",
       "auch während des Wettkampf dürfen Probeschüsse abgegeben werden",
     ],
-    antwort: [],
+    antwort: [0],
   },
   {
     frage:
@@ -433,7 +433,7 @@ const quiz = [
       "der Schuss wird als Fehler gewertet",
       "dem Schützen werden 10 Ringe abgezogen",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage:
@@ -443,7 +443,7 @@ const quiz = [
       "er erhält eine Verwarnung",
       "er wird disqualifiziert",
     ],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage: "Ist bei einer Luftpistole (2.10) ein Kompensator erlaubt?",
@@ -452,13 +452,13 @@ const quiz = [
       "nur wenn er bei der Waffenkontrolle nicht beanstandet wurde",
       "nein",
     ],
-    antwort: [],
+    antwort: [0],
   },
   {
     frage:
       "Wie hoch muss mindestens der Abzugswiderstand bei einer Luftpistole eingestellt sein?",
     antworten: ["100 g", "500 g", "750 g"],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage:
@@ -468,12 +468,12 @@ const quiz = [
       "50 g",
       "100 g",
     ],
-    antwort: [],
+    antwort: [0],
   },
   {
     frage: "Welches maximale Gewicht darf eine Schnellfeuerpistole haben?",
     antworten: ["1.400 g", "1.500 g", "1.750 g"],
-    antwort: [],
+    antwort: [0],
   },
   {
     frage:
@@ -483,25 +483,25 @@ const quiz = [
       "es darf nur ein Formgriff verwendet werden, bei dem das Handgelenk frei ist",
       "ja",
     ],
-    antwort: [],
+    antwort: [0, 1],
   },
   {
     frage:
       "Welche Vorgabe gibt es für die maximale Visierlänge bei 25-m-Pistolen?",
     antworten: ["200 mm", "210 mm", "220 mm"],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage:
       "Wie lang ist die erlaubte Schießzeit im Wettbewerb Luftpistole (2.10 \u00e2\u20ac\u201c 60 Schuss) bei Zuganlagen ohne Vorbereitungszeit?",
     antworten: ["75 Min.", "90 Min.", "105 Min."],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage:
       "Wie lang ist die Vorbereitungszeit inkl. einer unbegrenzten Anzahl von Probeschüssen im Wettbewerb Luftpistole (2.10 \u00e2\u20ac\u201c 60 Schuss)?",
     antworten: ["10 Min.", "15 Min.", "20 Min."],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage:
@@ -512,7 +512,7 @@ const quiz = [
       "30 Schuss in 55 Minuten",
       "40 Schuss in 60 Minuten, zusätzlich Probeschießen 10 Minuten",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage: "Darf beim Auflageschießen die Auflage im Anschlag berührt werden?",
@@ -521,7 +521,7 @@ const quiz = [
       "nein, kein Körperteil darf die Auflage berühren",
       "bleibt dem Schützen überlassen",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage:
@@ -531,7 +531,7 @@ const quiz = [
       "wie auf dem Schießstand vorhanden",
       "Rechteckmaterial, nicht größer als 40x40mm, Länge 120 mm",
     ],
-    antwort: [],
+    antwort: [0],
   },
   {
     frage: "Was muss beim Laden der Waffe im Auflageschießen beachtet werden?",
@@ -540,7 +540,7 @@ const quiz = [
       "Das Einführen der Geschosse bzw. der Patronen darf nur erfolgen, wenn die Waffe in Richtung des Kugelfanges zeigt.",
       "Bleibt dem Schützen überlassen.",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage:
@@ -550,7 +550,7 @@ const quiz = [
       "alle Hocker haben eine einheitliche Größe",
       "nein",
     ],
-    antwort: [],
+    antwort: [0],
   },
   {
     frage: "Wie viele Wertungsschüsse (1.11) müssen abgegeben werden?",
@@ -559,7 +559,7 @@ const quiz = [
       "30 Wertungsschüsse",
       "40 Wertungsschüsse",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage: "Welche Schießzeiten sind bei 10-m-Wettbewerben Auflage vorgegeben?",
@@ -568,7 +568,7 @@ const quiz = [
       "50 Minuten",
       "55 Minuten bei Zuganlagen",
     ],
-    antwort: [],
+    antwort: [0, 2],
   },
   {
     frage:
@@ -578,7 +578,7 @@ const quiz = [
       "bei Zuganlagen 55 Minuten inklusive Probezeit",
       "50 Minuten bei anderen Systemen",
     ],
-    antwort: [],
+    antwort: [1, 2],
   },
   {
     frage:
@@ -588,7 +588,7 @@ const quiz = [
       "Bei Sportlern, die sitzen, muss die Jacke an der Sitzfläche enden oder über den Hocker frei hängen.",
       "Schießkleidung ist gemäß Fachteil 1 erlaubt.",
     ],
-    antwort: [],
+    antwort: [1, 2],
   },
   {
     frage: "Darf der Korntunnel beim Auflageschießen über die Mündung ragen?",
@@ -597,24 +597,24 @@ const quiz = [
       "ja, bis max. 25 mm über die Mündung",
       "ja, bis max. 50 mm über die Mündung",
     ],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage: "Welche Wettbewerbe werden im Auflageschießen laut SpO angeboten?",
     antworten: ["Armbrust", "Zimmerstutzen", "Luftpistole"],
-    antwort: [],
+    antwort: [0, 1, 2],
   },
   {
     frage:
       "Welches max. Gewicht darf ein KK Gewehr Auflage (Regelnr. 1.36 ohne ZF) haben?",
     antworten: ["5.500 g", "6.500 g", "7.500 g"],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage:
       "Wie lang darf der Korntunnel beim Auflageschießen Luftgewehr maximal sein?",
     antworten: ["50 mm", "55 mm", "80 mm"],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage: "Welche der nachfolgenden Begriffe bezeichnen einen Führungsstil?",
@@ -623,12 +623,12 @@ const quiz = [
       "Demokratischer oder kooperativer Führungsstil",
       "Laissez-fairer Führungsstil",
     ],
-    antwort: [],
+    antwort: [0, 1, 2],
   },
   {
     frage: "Mit welchen Methoden kann die Ideenfindung unterstützt werden?",
     antworten: ["Brainstorming", "es gibt keine Methoden", "Mind-Map"],
-    antwort: [],
+    antwort: [0, 2],
   },
   {
     frage: 'Welche Aspekte umfasst der Begriff "Diversity-Management"?',
@@ -637,7 +637,7 @@ const quiz = [
       "Tolerierung individueller Verschiedenheiten",
       "Verhinderung von Diskriminierungen von Minderheiten",
     ],
-    antwort: [],
+    antwort: [1, 2],
   },
   {
     frage:
@@ -647,17 +647,17 @@ const quiz = [
       "Haftpflicht- und Unfallversicherung",
       "Unfall- und Lebensversicherung",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage: "Darf ein dem Verein anvertrauter 14-jähriger rauchen?",
     antworten: ["ja", "nein", "nur im Aufenthaltsraum"],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage: "Welche Kalibergröße ist in einem 10-Meter Stand zugelassen?",
     antworten: ["5,6 mm", "9 mm", "4,5 mm"],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage: "Dürfen 11-jährige am Schießen teilnehmen?",
@@ -666,7 +666,7 @@ const quiz = [
       "nein, keine Teilnahme",
       "nur mit Ausnahmegenehmigung",
     ],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage:
@@ -676,7 +676,7 @@ const quiz = [
       "der Verein",
       "der Verein vertreten durch den Vorstand",
     ],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage:
@@ -686,7 +686,7 @@ const quiz = [
       "er muss ausreichend versichert sein",
       "er darf nur unter Aufsicht schießen",
     ],
-    antwort: [],
+    antwort: [1, 2],
   },
   {
     frage:
@@ -696,7 +696,7 @@ const quiz = [
       "Jugendbasis-Lizenz",
       "Gruppenleiter-Lizenz",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage: "Ist das Rauchen auf Schießständen erlaubt?",
@@ -705,7 +705,7 @@ const quiz = [
       "ohne Ausnahme verboten",
       "ist nur für Sportschützen verboten",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage: "Was muss auf jedem Schießstand aushängen?",
@@ -714,7 +714,7 @@ const quiz = [
       "die Schießstandordnung",
       "der Name des Leitenden",
     ],
-    antwort: [],
+    antwort: [0, 1, 2],
   },
   {
     frage:
@@ -724,7 +724,7 @@ const quiz = [
       "Ja, wenn alle anderen Schützen schon schießen",
       "Nein, ohne Ausnahme nicht erlaubt",
     ],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage: "Wo muss eine Schießstandordnung aushängen?",
@@ -733,7 +733,7 @@ const quiz = [
       "im Schützenhausaufenthaltsaum bzw. \u00e2\u20ac\u201c Umkleideraum",
       "auf jedem Schießstand",
     ],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage: "Welche Anforderungen muss eine Standaufsicht erfüllen?",
@@ -742,18 +742,18 @@ const quiz = [
       "volljährig sein",
       "muss die Ausbildung für Standaufsichten mit Erfolg abgelegt haben und eine gültige Lizenz besitzen.",
     ],
-    antwort: [],
+    antwort: [0, 1, 2],
   },
   {
     frage:
       "Welches ist das höchste Verbandsorgan des Niedersächsischen Sportschützenverbandes?",
     antworten: ["Delegiertenversammlung", "Präsidium", "Gesamtvorstand"],
-    antwort: [],
+    antwort: [0],
   },
   {
     frage: "Wieviele Landesverbände hat der Deutsche Schützenbund?",
     antworten: ["40", "20", "26"],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage: "Wie heißt das offizielle Presseorgan des NSSV?",
@@ -762,7 +762,7 @@ const quiz = [
       "Visier",
       "Deutsche Schützenzeitung",
     ],
-    antwort: [],
+    antwort: [0],
   },
   {
     frage: "Warum muss ein Schütze dem NSSV gemeldet werden?",
@@ -771,7 +771,7 @@ const quiz = [
       "um Luftgewehrmunition erwerben zu können",
       "um in seiner Sportart versichert zu sein",
     ],
-    antwort: [],
+    antwort: [0, 2],
   },
   {
     frage: "Wie viele Kreisschützenverbände gibt es im NSSV?",
@@ -780,7 +780,7 @@ const quiz = [
       "39 Kreisschützenverbände",
       "36 Kreisschützenverbände",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage:
@@ -790,7 +790,7 @@ const quiz = [
       "die Delegiertenversammlung",
       "das Präsidium",
     ],
-    antwort: [],
+    antwort: [1],
   },
   {
     frage: "Welche Schützenverbände bilden den Schützenbund Niedersachsen?",
@@ -799,7 +799,7 @@ const quiz = [
       "Schützenverband Nordheide/Elbmarsch (Landesschützenverband\u00c2\u00a0 Hamburg und Umgebung)",
       "Nordwestdeutscher Schützenbund",
     ],
-    antwort: [],
+    antwort: [0, 1, 2],
   },
   {
     frage:
@@ -809,12 +809,12 @@ const quiz = [
       "Deutscher Schützenbund (DSB)",
       "Schützenbund Niedersachsen (sbn)",
     ],
-    antwort: [],
+    antwort: [2],
   },
   {
     frage: "Wo muss sich die Standaufsicht aufhalten?",
     antworten: ["im Auswerteraum", "links vom Schützen", "auf dem Schießstand"],
-    antwort: [],
+    antwort: [2],
   },
 ];
 
