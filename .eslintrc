@@ -1,0 +1,15 @@
+{
+  "plugins": ["prettier"],
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "airbnb",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": "warn",
+    "react/prop-types": "off"
+  }
+}
