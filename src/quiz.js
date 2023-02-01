@@ -13,7 +13,7 @@ const quiz = [
     frage:
       "Welche Zielhilfsmittel sind laut Teil 0 im Schießsport grundsätzlich zugelassen?",
     antworten: [
-      "Linsen mit Vergrößerung im Korntunnel",
+      "Fernglas",
       "Gläser zum Astigmatismusausgleich",
       "Filter mit geringer Vergrößerung",
     ],
@@ -24,7 +24,7 @@ const quiz = [
     antworten: [
       "das Auslösen des gespannten Abzugsmechanismus einer ungeladenen Schusswaffe",
       "das Auftreffen des Schlagbolzens auf eine Patrone, ohne das diese zündet",
-      "das Auslösen des Abzuges einer Waffe, die mit einer Vorrichtung versehen ist, den Abzug auszulösen ohne dass die Treibladung ausgelöst wird",
+      "das Auslösen des Abzuges einer Waffe, die mit einer Vorrichtung versehen ist, den Abzug auszulösen, ohne dass die Treibladung ausgelöst wird",
     ],
     antwort: [0, 2],
   },
@@ -68,7 +68,7 @@ const quiz = [
   },
   {
     frage:
-      "Für wieviele Vereine darf ein Schütze innerhalb eines Sportjahres in einem Wettbewerb bei Meisterschaften des DSB starten?",
+      "Für wie viele Vereine darf ein Schütze innerhalb eines Sportjahres in einem Wettbewerb bei Meisterschaften des DSB starten?",
     antworten: [
       "für einen Verein",
       "für zwei Vereine",
@@ -229,7 +229,7 @@ const quiz = [
   },
   {
     frage:
-      "Welche Schießzeiten sind bei Luftgewehr liegend (1.18 \u00e2\u20ac\u201c 60 Schuss) ohne Vorbereitungszeit vorgegeben?",
+      "Welche Schießzeiten sind bei Luftgewehr liegend (1.18 - 60 Schuss) ohne Vorbereitungszeit vorgegeben?",
     antworten: [
       "50 Minuten bei anderen Anlagen",
       "55 Minuten",
@@ -272,7 +272,7 @@ const quiz = [
   },
   {
     frage:
-      "Der Unterarm des Schützen, der beim Liegendschießen den Riemen hält, bildet zur Horizontalen eine Winkel von mindestens?",
+      "Der Unterarm des Schützen, der beim Liegendschießen den Riemen hält, bildet zur Horizontalen einen Winkel von mindestens?",
     antworten: ["20 Grad", "30 Grad", "40 Grad"],
     antwort: [1],
   },
@@ -337,9 +337,9 @@ const quiz = [
   {
     frage: "Welche Abmessungen gelten für das Luftgewehr?",
     antworten: [
-      "Maximale Systemlänge \u00e2\u20ac\u201c 850 mm",
+      "Maximale Systemlänge - 850 mm",
       "Durchmesser des Korntunnels 30 mm",
-      "Gesamtstärke (Breite) des Vorderschaftes \u00e2\u20ac\u201c 65 mm",
+      "Gesamtstärke (Breite) des Vorderschaftes - 65 mm",
     ],
     antwort: [0],
   },
@@ -371,7 +371,7 @@ const quiz = [
   },
   {
     frage:
-      "Welches max. Gewicht darf ein KK Sportgewehr (Regelnr. 1.40) haben?",
+      "Welches max. Gewicht darf ein KK-Sportgewehr (Regelnr. 1.40) haben?",
     antworten: ["5.500 g", "6.500 g", "8.000 g"],
     antwort: [2],
   },
@@ -406,13 +406,13 @@ const quiz = [
   },
   {
     frage:
-      "Auf welche Entfernung wird der Wettbewerb Zimmerstutzen geschossen?",
-    antworten: ["10 m", "15 m", "25 m"],
+      "Welche max. Tiefe darf der Vorderschaft eines Luftgewehrs von der Laufachse aus gemessen haben?",
+    antworten: ["90 mm", "120 mm", "150 mm"],
     antwort: [1],
   },
   {
     frage: "Wie schwer darf eine Luftpistole maximal sein?",
-    antworten: ["1000g", "\u00c2\u00a0 500g", "1500g"],
+    antworten: ["1000g", "500g", "1500g"],
     antwort: [2],
   },
   {
@@ -421,7 +421,7 @@ const quiz = [
     antworten: [
       "beliebig viele innerhalb der Vorbereitungszeit",
       "maximal 10 innerhalb der Vorbereitungszeit",
-      "auch während des Wettkampf dürfen Probeschüsse abgegeben werden",
+      "auch während des Wettkampfes dürfen Probeschüsse abgegeben werden",
     ],
     antwort: [0],
   },
@@ -463,11 +463,7 @@ const quiz = [
   {
     frage:
       "Wie muss der Abzugswiderstand bei einer 50 m Pistole eingestellt sein?",
-    antworten: [
-      "freie Einstellung \u00e2\u20ac\u201c keine Vorgabe",
-      "50 g",
-      "100 g",
-    ],
+    antworten: ["freie Einstellung - keine Vorgabe", "50 g", "100 g"],
     antwort: [0],
   },
   {
@@ -477,13 +473,13 @@ const quiz = [
   },
   {
     frage:
-      "Darf bei einer 50 m Pistole (2.20) ein Formgriff verwendet werden, der das Handgelenk umschließt?",
+      "Wie sind die Schießzeiten in einem Durchgang im Wettbewerb 25m Schnellfeuerpistole (2.30) festgelegt?Es werden je zwei Serien in ",
     antworten: [
-      "nein",
-      "es darf nur ein Formgriff verwendet werden, bei dem das Handgelenk frei ist",
-      "ja",
+      "10, 8, 6 Sekunden geschossen. ",
+      "8, 6, 4 Sekunden geschossen. ",
+      "7, 5, 3 Sekunden geschossen. ",
     ],
-    antwort: [0, 1],
+    antwort: [1],
   },
   {
     frage:
@@ -493,13 +489,13 @@ const quiz = [
   },
   {
     frage:
-      "Wie lang ist die erlaubte Schießzeit im Wettbewerb Luftpistole (2.10 \u00e2\u20ac\u201c 60 Schuss) bei Zuganlagen ohne Vorbereitungszeit?",
+      "Wie lang ist die erlaubte Schießzeit im Wettbewerb Luftpistole (2.10 - 60 Schuss) bei Zuganlagen ohne Vorbereitungszeit?",
     antworten: ["75 Min.", "90 Min.", "105 Min."],
     antwort: [1],
   },
   {
     frage:
-      "Wie lang ist die Vorbereitungszeit inkl. einer unbegrenzten Anzahl von Probeschüssen im Wettbewerb Luftpistole (2.10 \u00e2\u20ac\u201c 60 Schuss)?",
+      "Wie lang ist die Vorbereitungszeit inkl. einer unbegrenzten Anzahl von Probeschüssen im Wettbewerb Luftpistole (2.10 - 60 Schuss)?",
     antworten: ["10 Min.", "15 Min.", "20 Min."],
     antwort: [1],
   },
@@ -536,7 +532,7 @@ const quiz = [
   {
     frage: "Was muss beim Laden der Waffe im Auflageschießen beachtet werden?",
     antworten: [
-      "Das Gewehr muss mindestens im Winkel von 45\u00c2\u00b0 nach vorn zeigen",
+      "Das Gewehr muss mindestens im Winkel von 45° nach vorn zeigen",
       "Das Einführen der Geschosse bzw. der Patronen darf nur erfolgen, wenn die Waffe in Richtung des Kugelfanges zeigt.",
       "Bleibt dem Schützen überlassen.",
     ],
@@ -670,7 +666,7 @@ const quiz = [
   },
   {
     frage:
-      "Wer haftet, wenn Kinder unter 12 Jahren im Verein bei unberechtigter aber geduldeter Benutzung von Schusswaffen Schäden verursachen?",
+      "Wer haftet, wenn Kinder unter 12 Jahren im Verein bei unberechtigter, aber geduldeter Benutzung von Schusswaffen Schäden verursachen?",
     antworten: [
       "die Kinder",
       "der Verein",
@@ -730,7 +726,7 @@ const quiz = [
     frage: "Wo muss eine Schießstandordnung aushängen?",
     antworten: [
       "in jedem Schützenhaus",
-      "im Schützenhausaufenthaltsaum bzw. \u00e2\u20ac\u201c Umkleideraum",
+      "im Schützenhausaufenthaltsaum bzw. - Umkleideraum",
       "auf jedem Schießstand",
     ],
     antwort: [2],
@@ -756,13 +752,14 @@ const quiz = [
     antwort: [1],
   },
   {
-    frage: "Wie heißt das offizielle Presseorgan des NSSV?",
+    frage:
+      "Welche Voraussetzungen müssen erfüllt sein, damit eine Trainerlizenz erworben werden kann?",
     antworten: [
-      "Der Norddeutsche Schütze",
-      "Visier",
-      "Deutsche Schützenzeitung",
+      "eine gültige Schießsportleiterlizenz muss vorliegen ",
+      "eine Jugendbasislizenz muss vorliegen",
+      "ein gültiger erste Hilfe Nachweis muss vorliegen ",
     ],
-    antwort: [0],
+    antwort: [0, 2],
   },
   {
     frage: "Warum muss ein Schütze dem NSSV gemeldet werden?",
@@ -796,7 +793,7 @@ const quiz = [
     frage: "Welche Schützenverbände bilden den Schützenbund Niedersachsen?",
     antworten: [
       "Niedersächsische Sportschützenverband",
-      "Schützenverband Nordheide/Elbmarsch (Landesschützenverband\u00c2\u00a0 Hamburg und Umgebung)",
+      "Schützenverband Nordheide/Elbmarsch (Landesschützenverband Hamburg und Umgebung)",
       "Nordwestdeutscher Schützenbund",
     ],
     antwort: [0, 1, 2],
